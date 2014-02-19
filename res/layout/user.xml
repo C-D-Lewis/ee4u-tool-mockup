@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC" >
+
+    <RelativeLayout
+        android:id="@+id/q1_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/ninebox" >
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="B1: Age"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/down"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/item_title"
+            android:layout_margin="5dp"
+            android:src="@drawable/down" />
+
+        <TextView
+            android:id="@+id/item_body"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/down"
+            android:text="It is important to consider whether the nature of the Task dictates that there should be any restriction on the age of the end user. Common scenarios where age restrictions apply could be:\n\n •	Using specialist equipment requires a near-adult age, unless specifically designed for children.\n\n •	3D immersive HMDs have been shown to be inappropriate for children under the age of 6. Thus small children should not be allowed to use these devices for significant periods. Similarly, elderly users may be more susceptible to disorientation and nausea, and should not use HMDs for extended periods."
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/q2_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q1_layout"
+        android:layout_margin="5dp"
+        android:background="@drawable/ninebox" >
+
+        <TextView
+            android:id="@+id/q2_item_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="B2: Physical Fitness"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/q2_down"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/q2_item_title"
+            android:layout_margin="5dp"
+            android:src="@drawable/down" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/q3_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q2_layout"
+        android:layout_margin="5dp"
+        android:background="@drawable/ninebox" >
+
+        <TextView
+            android:id="@+id/q3_item_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="B3: Disabilities"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/q3_down"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/q3_item_title"
+            android:layout_margin="5dp"
+            android:src="@drawable/down" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/q4_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q3_layout"
+        android:layout_margin="5dp"
+        android:background="@drawable/ninebox" >
+
+        <TextView
+            android:id="@+id/q4_item_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="B4: Specialist Skills, Knowledge &amp; Experience"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/q4_down"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/q4_item_title"
+            android:layout_margin="5dp"
+            android:src="@drawable/down" />
+    </RelativeLayout>
+
+</RelativeLayout>

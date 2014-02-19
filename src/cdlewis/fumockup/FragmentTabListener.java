@@ -1,3 +1,8 @@
+/*
+ * Adapted from the Android API Documentation at:
+ * http://developer.android.com/guide/topics/ui/actionbar.html#Tabs
+ */
+
 package cdlewis.fumockup;
 
 import android.app.ActionBar;
